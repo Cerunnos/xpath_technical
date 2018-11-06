@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <div id="root"></div>
+    <script>
+      let request = new XMLHttpRequest()
+      let url = "https://www.kmstools.com/bostitch-1-1-2-18ga-flooring-stapler-20211"
+      request.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        showResult(request.responseXML);
+        }
+        // showResult(request.responseXML);
+      }
+      request.open("GET", url, true)
+      // request.withCredentials = "true"
+      request.send()
+
+      // function showResult(xml){
+      //   console.log("hit")
+      //   var txt = "";
+      //   path = "PRODSPECIALPRICE"
+      // }
+      console.log(request)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+</head>
+<body id="productinfoBody">
+<div id="rightContent" itemscope="" itemtype="http://schema.org/Product">
+  <!--bof Manufacturer's Logo-->
+  <img id="Bostitch" class="manu-logo" src="/images/manufacturers/Bostitch.jpg" width="110" alt ="Bostitch" title="Bostitch logo" />    	<!--eof Manufacturer's Logo-->
+  <div id="manu-promo"></div>
+  <!--bof Product Name-->
+  <h1 id="productName" class="productGeneral" itemprop="name">Bostitch 1-1/2&quot; 18ga Flooring Stapler  <span>EHF1838K</span></h1>
+  <!--eof Product Name-->
+  <h3 class="special-alert"></h3>        	<!--bof Product Price block -->
+  <div id="productPrices" class="" itemprop="Offer" itemscope="" itemtype="http://schema.org/AggregateOffer">
+  <span class="normalprice">Reg. $279.99</span><br /><span id="prodSpecialPrice" class="productSpecialPrice ">$269.99</span><div id="productPriceDiscount" class="">Save $10</div>        	</div>
+  <!--eof Product Price block -->
+
+  <!--bof Product details list  -->
+  <ul id="productDetailsList">
+  <li>SKU: BOS-EHF1838K</li>
+  <li>Model: EHF1838K</li>
+  <li><span class="instock-online" itemprop="availability">&#x2713; In Stock Online</span></li>            	<li itemprop="manufacturer">Manufactured by: Bostitch</li>
+  </ul>
+  <!--eof Product details list -->
+  <!--bof Add to Cart Box 11 -->
+  <div id="cartAdd">
+  <span>Qty: </span><input type="text" name="cart_quantity" value="1" maxlength="6" size="4" class="qtyInCart" /><input type="hidden" name="products_id" value="20211" /><input type="image" src="includes/templates/kmstools/buttons/english/button_in_cart.gif" alt="Add to Cart" title=" Add to Cart " id="addToCartButton" />                    	<a href="https://www.kmstools.com/classes-and-gift-cards-29000000/" class="giftcard-link"><img id="giftcard" src="/includes/templates/kmstools/images/gift-card-button.png" alt="Click here for gift cards!"/></a>
+  </div>
+</div>
+</body>
+</html>
